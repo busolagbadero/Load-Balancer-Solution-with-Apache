@@ -7,10 +7,10 @@ Opened TCP port 80 on Apache-lb
 installed apache and configured it to point traffic coming to LB to both Web Servers using these commands 'Install apache2
 sudo apt update
 sudo apt install apache2 -y
-sudo apt-get install libxml2-dev
+sudo apt-get install libxml2-dev '
 
 
-Enabled following modules:
+Enabled following modules: '
 sudo a2enmod rewrite
 sudo a2enmod proxy
 sudo a2enmod proxy_balancer
